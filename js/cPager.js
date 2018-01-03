@@ -1,5 +1,13 @@
 /**
 * PC端列表分页插件 供客户端分页用
+* author:stepday
+* date:2018-01-01
+* 调用示例
+  $(this).cPager({
+      pageSize: 8, //每一页显示的记录条数
+      pageid: "pager", //分页容器ID
+      itemClass: "li-item" //个体元素名称
+  });
 */
 (function ($) {
     /**
